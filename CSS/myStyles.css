@@ -1,0 +1,192 @@
+body {
+
+  background-color: #000;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+
+}
+
+h1 {
+
+  font-size: 100px;
+
+}
+
+h1, h2 {
+
+  color: #0ff;
+  text-shadow:0 0 8px #0ff;
+  text-align: center;
+
+}
+
+header {
+
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(180deg, #000, #101010);
+
+}
+
+section .pc{
+
+  text-align: center;
+
+}
+
+nav {
+
+  text-align: center;
+
+}
+
+
+nav ul{
+
+  justify-content: center;
+  list-style: none;
+  background-color: #111;
+  padding: 15px;
+  margin: 0;
+
+}
+
+nav ul li {
+
+  margin: 0 25px;
+
+}
+
+nav ul li a{
+
+  color: #0ff;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+nav ul li a:hover {
+
+  text-shadow: 0 0 10px #0ff;
+
+}
+
+.car_list {
+  text-align: center;   
+  margin: 20px 0;
+}
+
+.car_list span {
+  display: inline-block;      
+  margin: 0 100px;             
+  padding: 10px 15px;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  color: #0ff;
+  font-weight: bold;
+  text-shadow: 0 0 6px #0ff;
+}
+
+
+section {
+
+  padding: 20px;
+  text-align:center;
+  
+}
+
+section img{
+
+  margin: 15px;
+  border: 2px solid #0ff;
+  border-radius: 10px;
+
+}
+
+table {
+
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #111;
+
+}
+
+table caption {
+  caption-side: top;       
+  font-size: 22px;         
+  font-weight: bold;
+  color: #0ff;         
+  text-shadow: 0 0 8px #0ff, 0 0 15px #0ff;
+  padding: 10px 0;         
+  text-align: center;      
+}
+
+
+th {
+
+  background-color: #0ff;
+  color: #000;
+  padding: 10px;
+
+}
+
+td {
+
+  padding: 10px;
+  border: 1px solid #0ff;
+
+}
+
+tbody tr:nth-child(even) {
+
+  background-color: #080808;
+
+}
+
+article {
+
+  text-align: center;
+  padding: 20px;
+
+}
+
+form {
+
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 10px;
+  text-align: left;
+
+}
+
+#submit_Button {
+
+  background-color: #0ff;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+#submit_Button:hover {
+
+  box-shadow: 0 0 12px #0ff;
+
+}
+
+footer {
+
+  text-align: center;
+  padding: 15px;
+  background-color: #111;
+  margin-top: 30px;
+  color: #aaa;
+
+}
